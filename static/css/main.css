@@ -605,7 +605,8 @@ section.main .content .markdown code,
 section.main .content .markdown pre {
   font-family: 'Ubuntu Mono', 'Menlo', monospace;
   font-size: 1rem;
-  background-color: #f7f7f7;
+  background-color: #002b36;
+  color: #839496;
 }
 section.main .content .markdown code {
   /* enclosed by single backtick (`) */
