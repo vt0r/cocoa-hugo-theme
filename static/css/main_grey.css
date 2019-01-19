@@ -147,7 +147,7 @@ section.main {
   }
 }
 section.header {
-  background-color: #f7f7f7;
+  background-color: #222;
 }
 section.header .container {
   -webkit-align-items: center;
@@ -265,7 +265,7 @@ section.header nav ul a:hover {
   }
 }
 section.icons {
-  background-color: #f7f7f7;
+  background-color: #222;
 }
 section.icons .container {
   -webkit-align-items: center;
@@ -726,5 +726,5 @@ section.main .content .markdown th {
 }
 section.main .content .markdown tbody tr:nth-child(odd) td,
 section.main .content .markdown tbody tr:nth-child(odd) th {
-  background-color: #f7f7f7;
+  background-color: #222;
 }
