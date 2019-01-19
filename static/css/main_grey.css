@@ -185,8 +185,8 @@ section.header .name {
   font-display: swap;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  color: #333;
-  color: #555;
+  color: #999;
+  color: #aaa;
 }
 section.header h3.self-intro {
   font-size: 1em;
@@ -194,9 +194,9 @@ section.header h3.self-intro {
   font-display: swap;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  color: #333;
+  color: #999;
   font-weight: 400;
-  color: #555;
+  color: #aaa;
   margin-bottom: 1rem;
 }
 section.header nav {
@@ -352,9 +352,9 @@ section.main .content .title-container .initials {
   font-display: swap;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  color: #333;
+  color: #999;
   text-transform: uppercase;
-  color: #666;
+  color: #aaa;
 }
 section.main .content .title-container .initials a {
   color: #666;
@@ -581,7 +581,7 @@ section.main .content .markdown h6 {
   font-display: swap;
   letter-spacing: -0.005rem;
   font-weight: 700;
-  color: #333;
+  color: #999;
   text-transform: none;
   margin-top: 1.75rem;
 }
