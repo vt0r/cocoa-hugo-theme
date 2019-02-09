@@ -226,7 +226,7 @@ section.header nav ul li:last-child {
   margin-right: 0;
 }
 section.header nav ul a {
-  color: #2aa198;
+  color: #859900;
   font-weight: 500;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -235,7 +235,7 @@ section.header nav ul a {
   transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 section.header nav ul a:hover {
-  color: #859900;
+  color: #2aa198;
 }
 @media (min-width: 600px) {
   section.header {
@@ -545,7 +545,7 @@ section.main {
   }
 }
 a {
-  color: #2aa198;
+  color: #859900;
   -webkit-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -moz-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
   -ms-transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
@@ -553,7 +553,7 @@ a {
   transition: color 0.1s cubic-bezier(0.47, 0, 0.75, 0.72);
 }
 a:hover {
-  color: #859900;
+  color: #2aa198;
 }
 img {
   max-width: 100%;
