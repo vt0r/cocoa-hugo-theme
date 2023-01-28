@@ -60,6 +60,10 @@
             <a href="{{ .Site.Params.keybase }}" target="_blank" rel="noopener"><img class="icon" src="/img/keybase.svg" alt="keybase" /></a>
         {{ end }}
 
+        {{ if .Site.Params.keyoxide }}
+            <a href="{{ .Site.Params.keyoxide }}" target="_blank" rel="noopener"><img class="icon" src="/img/keyoxide.svg" alt="keyoxide" /></a>
+        {{ end }}
+
         {{ if .Site.Params.calendar }}
             <a href="{{ .Site.Params.calendar }}" target="_blank" rel="noopener"><img class="icon" src="/img/calendar.svg" alt="calendar" /></a>
         {{ end }}
