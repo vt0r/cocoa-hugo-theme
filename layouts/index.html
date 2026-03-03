@@ -41,7 +41,7 @@
                 {{ $totalpostscount := len $allPages }}
                 {{ $latestpostscount := .Site.Params.latestpostscount | default $totalpostscount }}
                 {{ $paginator := .Paginate $allPages $latestpostscount }}
-                {{ $toShow := mul $paginator.PageNumber $paginator.PageSize }}
+                {{ $toShow := mul $paginator.PageNumber $paginator.PagerSize }}
                 {{ range $index, $el := (first $toShow $allPages) }}
                     <ul>{{ partial "li.html" . }}</ul>
                 {{ end }}
